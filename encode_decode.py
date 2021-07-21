@@ -63,7 +63,7 @@ if resp == '1':
     text=input("Enter_data: ").lower()
     x=encode(text, encryption)
     file.write(x)
-    file.close
+    file.close()
 
 elif resp == '2':
     file = open(input("Enter_filename: "), "r+")
